@@ -1,0 +1,22 @@
+{
+    "actionLibrary":[
+        {
+            "SEType": "pump",
+            "Fault": "FailStart",
+            "Cause": "BrokenFuse",
+            "Action":"Replace Fuse"
+        },
+        {
+            "SEType": "pump",
+            "Fault": "WaterNotDelivered",
+            "Cause": "LeakySuctionPipe",
+            "Action":"Seal Leaks"
+        },
+        {
+            "SEType": "tank",
+            "Fault": "WaterNotDelivered",
+            "Cause": "WaterUnableToReach",
+            "Action":"Add Pump At Input"
+        }
+    ]
+}

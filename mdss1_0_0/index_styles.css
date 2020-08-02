@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* display: flex; */
+    height: 100%;
+    flex-direction: column;
+}
+#main{
+    /* flex: 5; */
+    height: 70%;
+    max-height: initial;
+    min-height: initial;
+    display: flex;
+    flex-direction: row;
+}
+#results{
+    /* flex: 2; */
+    height: 30%;
+    max-height: initial;
+    min-height: initial;
+    border-top: solid black;
+    border-width: 1px;
+}
+
+
+/* -------------main-------------- */
+#palette{
+    flex: 2;
+    border-right: solid black;
+    border-width: 1px;
+}
+#graph{
+    flex: 6;
+}
+
+/* ----------palette----------- */
+.heading{
+    font-size: 18;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: solid black;
+    border-width: 1px;
+    height: 30px;
+    max-height: 30px;
+}
+#propertiesTable{
+    height: calc(100% - 30px - 56px);
+    max-height: initial;
+    overflow-y: scroll;
+}
+
+
+#propertyBtns{
+    display: flex;
+    flex-direction: row;
+    height: 28px;
+    max-height: 28px;
+}
+
+
+/* ------------table------------- */
+.table-heading{
+    display: flex;
+    flex-direction: row;
+}
+
+/* ------------property buttons------------- */
+
+#propertyBtns > div{
+    flex: 1;
+}
+#propertyBtns > div > button{
+    width: 100%;
+    text-align: center;
+    height: 28px;
+}
+
+/* ------------node-properties > property------------- */
+.property{
+    display: flex;
+    flex-direction: row;
+}
+.attribute-heading, .attribute, .value-heading, .value{
+    text-align: center;
+    margin: 3px;
+    border-bottom:1px solid black
+}
+.attribute-heading, .value-heading{
+    font-size: 14;
+    font-weight: bold;
+}
+
+.attribute-heading, .attribute{
+    flex: 3;
+}
+.value-heading, .value{
+    flex: 5;
+}
+
+.delete-property-div{
+    flex: 2;
+}
+.delete-property{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+.property > div > input{
+    height: 28px;
+    width: 100%;
+    border: none;
+    background-color: white;
+}
+
+.property > div > input:hover {
+    border: 1px solid #cbd5e0;
+}
+
+/* ---------------result buttons-------------- */
+
+#resultsContainer{
+    display: none;
+}
+#resultsButtonsContainer{
+    display: block;
+}
+#processListButton, #situationAssessmentButton, #therapyProposalButton, #saveContentButton{
+    width: 100%;
+    text-align: center;
+    height: 28px; 
+}
+
+/* -------------------results----------------- */
+.process-header{
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    padding: 5px;
+    border-bottom: solid black;
+    display: flex;
+    flex-direction: row;
+}
+.process-name-header{
+    flex: 1
+}
+.components-header{
+    flex: 2
+}
+
+.process{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+}
+.process-name{
+    flex: 2;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    padding: 5px;
+}
+.process-source{
+    flex: 2;
+    text-align: center;
+    font-size: large;
+}
+.process-destination{
+    flex: 2;
+    text-align: center;
+    font-size: large;
+}
+
+
+.return-button-container{
+    width: 100%;
+    text-align: right;
+}
+
+#returnButton{
+    height: 28px;
+    width: 100%;
+    margin-right: 5px;
+}
+
+
+.faulty-header, .plans-header{
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    padding: 5px;
+    border-bottom: solid black;
+    display: flex;
+    flex-direction: row;
+}
+.faulty-header > div, .plan-header > div{
+    text-align: center;
+}
+.faulty-component, .plan-name{
+    text-align: center;
+    font-size: large;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+/* plan details */
+
+.action-container{
+    text-align: center;
+    font-size: large;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.se-heading, .se-name{
+    flex: 3;
+}
+.action-name-heading, .action-name{
+    flex: 7;
+}

@@ -1,0 +1,142 @@
+body{
+    height: 100%;
+}
+/* ------ main containers and buttons ------ */
+
+#main{
+    height: 100%;
+    max-height: initial;
+    min-height: initial;
+    align-items: center;
+}
+.processes-container{
+    height: 80%;
+    overflow-y: scroll;
+    
+}
+.process-button-Container{
+    height: 10%;
+}
+.add-process-button{
+    width: 100%;
+    height: 28px;
+}
+
+/* ------ create process function components ------ */
+
+.process-card{
+    border: 1px solid black
+}
+.process-heading-container{
+    height: 30px;
+    width: 100%;
+}
+.process-heading-input{
+    height: 30px;
+    font-size: 20px;
+    width: 100%;
+}
+.process-button-container{
+    height: 28px; 
+    width: 100%;
+}
+.delete-process-button, .save-process-button{
+    height: 28px;
+    width: 100px;
+    /* border: 1px solid #fc0303; */
+    /* background-color: #fc0303; */
+    border-radius: 5px;
+}
+
+
+/* ------ create section function components ------ */
+
+.process-section{
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.section-heading{
+    flex: 2;
+    font-size: 18px;
+}
+
+/* -- the objects list are in the next section of the file -- */
+
+.add-object-button-container{
+    flex: 1;
+}
+.add-object-button{
+    width: 100%;
+    height: 100%;
+}
+
+/* ------ create objectlist function components ------ */
+
+.object-list-container{
+    flex: 7;
+    /* text-align: center; */
+}
+
+/* ------ create object function components ------ */
+
+.object-container{
+    border: solid black;
+    /* display: inline-block; */
+    /* width: 32%; */
+    margin: 3px;
+    border-radius: 4px;
+}
+.object-heading-container{
+    height: 25px;
+    width: 100%;
+    margin-bottom: 2px;
+}
+.object-heading-input{
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+}
+.new-value-input-container{
+    height: 25px;
+    width: 100%;
+    margin-bottom: 2px;
+}
+.new-value-input{
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.object-value-list-container{
+    width: 100%;
+    margin-bottom: 2px;
+}
+.value-container{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.value-input{
+    height: 100%;
+    flex: 4;
+    font-size: 16px;
+
+}
+.delete-value-button{
+    height: 100%;
+    flex: 1;
+    /* border: 1px solid #fc0303;
+    background-color: #fc0303; */
+}
+.delete-object-button-container{
+    height: 25px;
+    width: 100%;
+}
+.delete-object-button{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid #fc0303;
+    background-color: #fc0303; */
+}

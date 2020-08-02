@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title> mdss</title>
+		<link rel="stylesheet" href="./index_styles.css">
+	</head>
+	<body>
+		<div id="main">
+			<div id="palette">
+				<div class="heading">Palette</div>
+
+				<div id="propertiesTable">
+					<div class="table-heading">
+						<div class="attribute-heading">Attribute</div>
+						<div class="value-heading">Value</div>
+					</div>
+					
+					<div id="nodeProperties" class="node-properties"></div>
+
+				</div>
+
+				<div>
+					<div id="propertyBtns">
+						<div> <button id="addProperty">Add</button> </div>
+						<div> <button id="saveProperties">Save</button> </div>
+					</div>
+					<button id="saveContentButton">Save Content</button>
+				</div>
+
+			</div>
+			<div id="graph"></div>
+		</div>
+		<div id="results">
+			<div class="heading">Results</div>
+			<div id="resultsButtonsContainer">
+				<button id="processListButton">Situation Assessement</button>
+				<button id="situationAssessmentButton">Diagnose Faults</button>
+				<button id="therapyProposalButton">Therapy Proposal</button>
+			</div>
+			<div id="resultsContainer">	
+				
+			</div> 
+		</div>
+		<script>
+			require('./index_renderer.js')
+		</script>
+	</body>
+</html>

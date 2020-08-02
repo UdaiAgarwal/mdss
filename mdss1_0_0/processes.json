@@ -1,0 +1,19 @@
+{"processes":[
+    {
+        "type":"flow",
+        "roles":[
+            {"source":["source","tank","pump"]},
+            {"destination":["tank","pump","outlet"]}
+        ],
+        "structural_conditions":[
+            {"connectedTo":["source","destination"]},
+            {"waterIn":["source"]}
+        ],
+        "quantitative_conditions":[],
+        "structural_effects":[
+            {"waterIn":["destination"]}
+        ],
+        "quantitative_effects":[]
+    }
+]
+}
