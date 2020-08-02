@@ -1,0 +1,32 @@
+[
+    {
+        "ProcessType": "Flow",
+        "SERole": "SourceLocation",
+        "SERoleType": "Source",
+        "InCondition": "True"
+    },
+    {
+        "ProcessType": "Flow",
+        "SERole": "DestinationLocation",
+        "SERoleType": "Destination",
+        "InCondition": "True"
+    },
+    {
+        "ProcessType": "Flow",
+        "SERole": "SourceWater",
+        "SERoleType": "Water",
+        "InCondition": "True"
+    },
+    {
+        "ProcessType": "CurrentFlow",
+        "SERole": "PowerSourceObject",
+        "SERoleType": "PowerSource",
+        "InCondition": "True"
+    },
+    {
+        "ProcessType": "CurrentFlow",
+        "SERole": "ElectricalObject",
+        "SERoleType": "Electronics",
+        "InCondition": "True"
+    }
+]

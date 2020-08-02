@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>MDSS 1.0.0</title>
+        <link rel="stylesheet" href="../stylesheets/ses_stylesheet.css">
+    </head>
+    <body>
+        <div id= "LibraryTypeTableContainer">
+            <table id="LibraryTypeTable">
+                <thead id= "LibraryTypeTableHeadingsContainer">
+                    <tr>
+                        <th>ProcessType</th>
+                        <th>SERole</th>
+                        <th>SERoleType</th>
+                        <th>InCondition</th>
+                    </tr>
+                </thead>
+                <tbody id= "LibraryTypeTableRecordsContainer"></tbody>
+            </table>
+            <div class="tableButtons">
+                <button id="addInLTTButton" >Add</button>
+                <button id="saveLTTButton" >Save</button>
+            </div>
+        </div>
+        <div id= "TypeSubsumptionTableContainer">
+            <table id="TypeSubsumptionTable">
+                <thead id= "TypeSubsumptionTableHeadingsContainer">
+                    <tr>
+                        <th>SERoleType</th>
+                        <th>SEType</th>
+                    </tr>
+                </thead>
+                <tbody id= "TypeSubsumptionTableRecordsContainer"></tbody>
+            </table>
+            <div class="tableButtons">
+                <button id="addInTSTButton" >Add</button>
+                <button id="saveTSTButton" >Save</button>
+            </div>
+        </div>
+        <div id= "SituationTypeTableContainer">
+            <table id="SituationTypeTable">
+                <thead id= "SituationTypeTableHeadingsContainer">
+                    <tr>
+                        <th>Situation</th>
+                        <th>SE</th>
+                        <th>SEType</th>
+                    </tr>
+                </thead>
+                <tbody id= "SituationTypeTableRecordsContainer"></tbody>
+            </table>
+            <div class="tableButtons">
+                <button id="addInSTTButton" >Add</button>
+                <button id="saveSTTButton" >Save</button>
+            </div>
+        </div>
+        <div id= "LibraryTypeEffectsContainer">
+            <table id="LibraryTypeEffects">
+                <thead id= "LibraryTypeEffectsHeadingsContainer">
+                    <tr>
+                        <th>ProcessType</th>
+                        <th>SERole</th>
+                        <th>SEType</th>
+                    </tr>
+                </thead>
+                <tbody id= "LibraryTypeEffectsRecordsContainer"></tbody>
+            </table>
+            <div class="tableButtons">
+                <button id="addInLTEButton" >Add</button>
+                <button id="saveLTEButton" >Save</button>
+            </div>
+        </div>
+    </body>
+    <script>
+        require("../renderers/ses_renderer.js")
+    </script>
+</html>

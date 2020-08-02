@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+#mainContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#FunctionalityButtonsContainer{
+    flex: 2;
+    border-right: solid black;
+}
+#ResultsContainer{
+    flex: 7;
+}
+
+#SituationAssessmentButton, #DiagnosisButton{
+    width: 100%;
+    height: 30px;
+}
+
+/* results */
+#ResultsHeading{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: solid black;
+}
+#Results{
+    width: 100%;
+    height: Calc(100% - 30px);
+}
+
+/* situation assessment output - process list */
+.process-header{
+    height: 30px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+}
+.process-type-header, .process-type-container{
+    flex: 2;
+    text-align: center;
+    border-right: solid black;
+}
+.roles-header, .process-roles-container{
+    flex: 7;
+    text-align: center;
+    border-right: solid black;
+}
+
+.process-list-container{
+    width: 100%;
+    height: Calc(100%-60px);
+    overflow-y: scroll;
+}
+
+.process-row-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 27px;
+}
+.process-type-container{
+    font-weight: bold;
+}
+.process-roles-container{
+    display: flex;
+    flex-direction: row;
+}
+.process-role{
+    flex: 1;
+    text-align: center;
+}
+
+.return-button-container{
+    width: 100%;
+    height: 30px;
+}
+#returnButton{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "ProcessType": "Flow",
+        "RoleRelation": "Connection",
+        "RelationType": "ConnectedTo",
+        "SERole": "SourceLocation",
+        "Pos": "1"
+    },
+    {
+        "ProcessType": "Flow",
+        "RoleRelation": "Connection",
+        "RelationType": "ConnectedTo",
+        "SERole": "DestinationLocation",
+        "Pos": "2"
+    },
+    {
+        "ProcessType": "Flow",
+        "RoleRelation": "InWaterLocation",
+        "RelationType": "LocatedAt",
+        "SERole": "SourceWater",
+        "Pos": "1"
+    },
+    {
+        "ProcessType": "Flow",
+        "RoleRelation": "InWaterLocation",
+        "RelationType": "LocatedAt",
+        "SERole": "SourceLocation",
+        "Pos": "2"
+    },
+    {
+        "ProcessType": "CurrentFlow",
+        "RoleRelation": "Connection",
+        "RelationType": "ElectricalConnection",
+        "SERole": "PowerSourceObject",
+        "Pos": "1"
+    },
+    {
+        "ProcessType": "CurrentFlow",
+        "RoleRelation": "Connection",
+        "RelationType": "ElectricalConnection",
+        "SERole": "ElectricalObject",
+        "Pos": "2"
+    }
+]

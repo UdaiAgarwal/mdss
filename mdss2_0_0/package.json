@@ -1,0 +1,14 @@
+{
+  "name": "mdss",
+  "version": "1.0.0",
+  "description": "Context free Model Based Decision Support System",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Udai Agarwal",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.0"
+  }
+}

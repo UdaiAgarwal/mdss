@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>MDSS 1.0.0</title>
+        <link rel="stylesheet" href="../stylesheets/relations_stylesheet.css">
+    </head>
+    <body>
+        <div id= "RoleRelationTableContainer">
+            <table id="RoleRelationTable">
+                <thead id= "RoleRelationTableHeadingsContainer">
+                    <tr>
+                        <th>ProcessType</th>
+                        <th>RoleRelation</th>
+                        <th>RelationType</th>
+                        <th>SERole</th>
+                        <th>Pos</th>
+                    </tr>
+                </thead>
+                <tbody id= "RoleRelationTableRecordsContainer"></tbody>
+            </table>
+            <div class="tableButtons">
+                <button id="addInRRTButton" >Add</button>
+                <button id="saveRRTButton" >Save</button>
+            </div>
+        </div>
+        <div id= "SituationRelationTableContainer">
+            <table id="SituationRelationTable">
+                <thead id= "SituationRelationTableHeadingsContainer">
+                    <tr>
+                        <th>Situation</th>
+                        <th>Relation</th>
+                        <th>RelationType</th>
+                        <th>SE</th>
+                        <th>Pos</th>
+                    </tr>
+                </thead>
+                <tbody id= "SituationRelationTableRecordsContainer"></tbody>
+            </table>
+            <div class="tableButtons">
+                <button id="addInSRTButton" >Add</button>
+                <button id="saveSRTButton" >Save</button>
+            </div>
+        </div>
+        <div id= "RelationTypeEffectsContainer">
+            <table id="RelationTypeEffects">
+                <thead id= "RelationTypeEffectsHeadingsContainer">
+                    <tr>
+                        <th>ProcessType</th>
+                        <th>RoleRelation</th>
+                        <th>RelationType</th>
+                        <th>SERole</th>
+                        <th>Pos</th>
+                    </tr>
+                </thead>
+                <tbody id= "RelationTypeEffectsRecordsContainer"></tbody>
+            </table>
+            <div class="tableButtons">
+                <button id="addInRTEButton" >Add</button>
+                <button id="saveRTEButton" >Save</button>
+            </div>
+        </div>
+    </body>
+    <script>
+        require("../renderers/relations_renderer.js")
+    </script>
+</html>

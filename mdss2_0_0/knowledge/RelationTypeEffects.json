@@ -1,0 +1,18 @@
+[
+    {
+        "ProcessType": "Flow",
+        "RoleRelation": "OutWaterLocation",
+        "RelationType": "LocatedAt",
+        "SERole": "DestinationWater",
+        "Pos": "1"
+    },
+    {
+        "ProcessType": "Flow",
+        "RoleRelation": "OutWaterLocation",
+        "RelationType": "LocatedAt",
+        "SERole": "DestinationLocation",
+        "Pos": "2"
+    }
+]
+
+

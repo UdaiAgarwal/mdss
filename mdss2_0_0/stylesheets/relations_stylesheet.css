@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#RoleRelationTableContainer, 
+#SituationRelationTableContainer,
+#RelationTypeEffectsContainer{
+    border-bottom: solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+#RoleRelationTable,
+#SituationRelationTable,
+#RelationTypeEffects{
+    flex: 7;
+}
+
+
+tr, th, td{
+    height: 30px;
+    border-right: 1px solid black;
+}
+tr{
+    border-bottom: 1px solid black;
+}
+th{
+    font-size: large;
+}
+.delete-button-container{
+    width: 30px
+}
+input, .delete-row-button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    text-align: center;
+    font-size: large;
+}
+.delete-row-button{
+    background-color: #e03745;
+    border-radius: 5px;
+}
+
+.tableButtons{
+    flex: 2;
+    display:flex;
+    flex-direction: row;
+}
+.tableButtons > button {
+    flex: 1;
+}
